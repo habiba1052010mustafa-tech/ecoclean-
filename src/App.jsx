@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ReportPage from './pages/ReportPage';
-import MapPage from './pages/MapPage';
-import DashboardPage from './pages/DashboardPage';
-import LeaderboardRewardsPage from './pages/LeaderboardRewardsPage';
-import AuthorityView from './pages/AuthorityView';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import HomePage from './HomePage';
+import ReportPage from './ReportPage';
+import MapPage from './MapPage';
+import DashboardPage from './DashboardPage';
+import LeaderboardRewardsPage from './LeaderboardRewardsPage';
+import AuthorityView from './AuthorityView';
 
-import { INITIAL_REPORTS, INITIAL_USER } from './data/mockData';
+import { INITIAL_REPORTS, INITIAL_USER } from './mockData';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
