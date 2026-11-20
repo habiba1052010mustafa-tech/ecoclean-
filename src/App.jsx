@@ -8,7 +8,7 @@ import DashboardPage from './DashboardPage';
 import LeaderboardRewardsPage from './LeaderboardRewardsPage';
 import AuthorityView from './AuthorityView';
 
-import { INITIAL_REPORTS, INITIAL_USER } from './mockData';
+import { INITIAL_REPORTS, INITIAL_USER } from './data/mockData';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
